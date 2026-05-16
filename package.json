@@ -1,0 +1,30 @@
+{
+  "name": "babymap",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "prop-types": "^15.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-simple-maps": "^3.0.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "@types/d3-geo": "^3.1.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/topojson-client": "^3.1.4",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tailwindcss": "^4.1.5",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
