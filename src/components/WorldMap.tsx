@@ -63,7 +63,7 @@ function WorldMapInner({ markers, onHoverCountry, countryCounts }: WorldMapProps
         style={{ width: '100%', height: '100%' }}
       >
         <ZoomableGroup minZoom={1} maxZoom={8}>
-          <Geographies geography={topology}>
+          <Geographies geography={"https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"}>
             {({ geographies }) => {
               handleGeoLoad(geographies);
               return (
