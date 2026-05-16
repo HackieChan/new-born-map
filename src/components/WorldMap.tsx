@@ -6,7 +6,6 @@ import {
   Geography,
   Marker,
 } from 'react-simple-maps';
-import topology from 'world-atlas/countries-110m.json';
 import { BirthEvent, TooltipData } from '../types';
 import { birthRateMap, simulatedCountryIds } from '../data/birthRates';
 import { registerGeoFeature } from '../engine/coordinateGenerator';
